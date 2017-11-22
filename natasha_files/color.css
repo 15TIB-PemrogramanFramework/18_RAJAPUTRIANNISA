@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+.footer{
+	background:url(../../../../images/footerr3.jpg);
+	background-repeat: repeat-y;
+	color:#ffffff;
+	border-top:2px solid #ffffff;
+}
+.color, 
+.banner .caption small, .top-caption .pink, 
+.next-day, 
+.magazine h6, .magazine a, .salon a, 
+.magazine a:hover, .salon a:hover, 
+.pink, .signature, .products p, .products p small, 
+.navigation ul ul li a:hover, 
+.language .dropdown-menu > li > a:hover, .long-looking  h4, .long-looking .date ul li, .long-looking .date ul li a, 
+input[type="text"]:focus, .modal-header h3, .thumbs-facilities .text a, .thumbs-facilities:hover .thumb h4, 
+.our-specials ul li:hover a, .our-specials ul li:hover h3, .team h5, .timing-section p span, .our-team ul li .header h2, .our-team ul li .header h4, 
+.form textarea:focus, .blog-listing ul li:hover h3, 
+.twitter-feeds .time-ago, .archives-widget ul li a:hover, 
+.blog .heading h3, .comments h3, 
+.continue-shopping, .products-page /*.breadcrumb > .active,*/ .more-detail .nav-tabs > .active > a, .more-detail .nav-tabs > .active > a:hover, .more-detail .nav-tabs > .active > a:focus, 
+.you-like ul li:hover h5, .pagination ul li a:hover, .project-thumb:hover .caption h5, .latest-article .read-more:hover{
+color: #E02187 !important;
+}
+
+
+.right-banner .carousel-indicators .active, .love-it-thumb:hover .price, 
+.experts .caption a, 
+.shop-now, 
+.our-products .nav-tabs > .active > a, .our-products .nav-tabs > .active > a:hover, .our-products .nav-tabs > .active > a:focus, 
+.news-letters, 
+.footer .carousel-indicators .active, 
+.go-top, 
+.top-strip, 
+/*.navigation ul li a:hover, .navigation ul li:hover > a, 
+.navigation ul ul,*/ 
+.language .dropdown li a, 
+.modal-footer button, .social ul li a:hover, .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, 
+.appointment-btn,  
+.header .nav-collapse, .header .navbar .btn-navbar, .header .navbar .btn-navbar:hover, 
+.form-btn, 
+.blog-listing .thumb .tags, 
+.tags-widget ul li a, .title, .comments ul li:after, .product-list .nav-tabs > .active > a, .product-list .nav-tabs > .active > a:hover, .product-list .nav-tabs > .active > a:focus, .hot-favorites ul li:hover a.more, .hot-favorites .accordion-heading .accordion-toggle:hover, .hot-favorites .accordion-heading .accordion-toggle:focus, .jspDrag, .more-data, .latest-article ul li:hover{
+background-color:#E02187;
+color:#FFF;
+font-family: "Cabin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.category-widget ul li a:hover{
+	/*background-color:#FFF;*/
+	color:#E02187;
+}
+.navigation ul li a:hover, .navigation ul li:hover > a, 
+.navigation ul ul{
+	color:#E02187;
+	border-bottom: 1px solid #E02187;
+}
+.bx-wrapper .bx-pager, input[type="text"]:focus, .category-banner, .form textarea:focus, .slider-whats .thumb{
+border-color:#ae0054 !important;
+}
+
+/*
+===================================================
+				OTHER COLORS
+===================================================
+*/
+.prodd{
+	margin: -30px 110px !important;
+}
+
+.bg, .free-shipping{
+background-color:#ffffff;
+}
+.whats-new, .love-it, .our-products{
+background-color:#fff;
+}
+.testimonials {
+    background-color: #fff;
+}
+
+.experts
+{
+	background-color:#f0f0f0;
+}
+
+.follow-us
+{
+	margin-top:50px;
+	margin-left: 0px;
+}
+/*
+===================================================
+	RESPONSIVE DESIGN FOR ALL DEVICE
+===================================================
+*/
+@media screen and (max-width: 420px)
+{
+   .footer{
+		background:url(../../../../images/footerr3.jpg) repeat-y;
+		color:#ffffff;
+		border-top:2px solid #ffffff;
+	}
+}
+
+@media screen and (max-width: 769px)
+{
+	/* Testimoni, SpecialDay, Promo */
+   .whats-new-left .news {
+		float: left;
+		width: 260px;
+		margin: 0px 0px 0px 0px;
+	}
+	.long-looking {
+		float: left;
+		width: 100%;
+	}
+	/* Footer */
+	.detail {
+		margin-top:10px !important;
+	}
+	.go-top a {
+		right: 5px !important;
+		top: 80% !important;
+	}
+	.header .navbar {
+		/*position: absolute;
+		top: %;
+		margin-top: 41%;*/
+		top: 0 !important;
+		width: 100%;
+		padding: 0px;
+	}
+}
+/* Ipad Mini and other  */
+@media screen and (min-width: 769px)
+{
+	.follow-us
+	{
+		margin-top: 20px !important;
+		margin-left: 0px !important;
+	}
+}
+
+@media screen and (max-width: 1024px)
+{
+	.follow-us
+	{
+		margin-top: 10px !important;
+		margin-left: 0px !important;
+	}
+	.copyrights p {
+		/*margin-top: -4%;*/
+	}
+}
+
+@media screen and (max-width: 1024px)
+{
+	/* Testimoni, SpecialDay, Promo */
+   .whats-new-left .news {
+		float: left;
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+   }
+	.whats-new-left
+	{
+	   width: 100% !important;
+	}
+	.project-thumb {
+		width: 100% !important;
+		margin-bottom: 50px !important;
+	}   
+   .project-thumb .carousel-control.right {
+		right: 0px !important;
+		background-position: -42px 0px !important;
+		margin-left: 85%;
+	}
+	.right-banner {
+		float: left;
+		width: 100% !important;
+		margin: 10px 0px 0px 0px !important;
+		position: relative;
+		display: inline !important;
+	}
+	.right-banner ul li {
+		float: left;
+		width: 49%;
+		margin: 5px 5px 0px 0px !important;
+		/*background-color: rgba(0,0,0,0.1);*/
+		/*padding: 5px;*/
+		padding-top: 0px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		position: relative;
+	}
+	.long-promo{
+		width: 100% !important;
+	}
+	.long-promo h4 {
+		font-size: 16px !important;
+	}
+	
+	.long-looking h4{
+		font-size: 18px !important;
+	}
+	.long-looking {
+		float: left;
+		width: 100%;
+	}
+	/* Footer */
+	.detail {
+		margin-top:10px !important;
+	}
+	.go-top a {
+		right: 5px !important;
+		top: 80% !important;
+	}
+	.header .navbar {
+		/*position: absolute;
+		top: %;
+		margin-top: 41%;*/
+		top: 0 !important;
+		width: 100%
+	}
+	.span3{
+		width: 250px;
+		float: left;
+	}
+	.span4{
+		width: 350px;
+		float: left;
+	}
+}
+@media screen and (max-width: 667px){
+	.right-banner ul li {
+		width: 100%;
+	}
+}
+.alert{
+	padding: 3px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    /* border: 1px solid transparent; */
+    border-radius: 2px;
+}
+.alert-custom {
+    color: #FFFFFF;
+    background-color: #F380C0;
+    border-color: #F380C0;
+}
+.alert h5{
+	color: #FFFFFF;
+	text-align: center;
+}
